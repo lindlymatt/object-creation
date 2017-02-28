@@ -57,7 +57,7 @@ function Husky() {
 }
 
 // TODO: Use Object.create() in order to extend the superclass with the subclass
-//write code here
+Husky.prototype = Object.create(Dog.prototype);
 
 var fido = new Husky();
 
